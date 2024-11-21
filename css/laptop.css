@@ -1,0 +1,31 @@
+/* 1180px - 745px*/
+@media(max-width:1180px) {
+
+    /* header */
+    header {
+        padding: 16px 32px;
+    }
+
+    .logo {
+        font-size: 24px;
+        line-height: 32px;
+        display: block;
+
+    }
+
+    .logo_text {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        display: block;
+    }
+
+    /* banner_section */
+    /* .banner_section{
+        width: 1180px;
+    } */
+
+    .banner_section_cover{
+        width: min(100%, 1180px);
+    } 
+}

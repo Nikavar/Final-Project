@@ -1,0 +1,30 @@
+/* 744px - 481px */
+@media(max-width: 744px) {
+
+    /* header */
+
+    header {
+        padding-inline: 24px;
+    }
+
+    .header_burger_button {
+        display: block;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .sing_in_image {
+        display: block;
+    }
+
+    .sign_in_text {
+        display: none;
+        ;
+    }
+
+    .header_right_side_section {
+        column-gap: 8px;
+    }
+}

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* container */
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header */
+header {
+    padding: 26px 120px;
+    background-color: #402101;
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_burger_button {
+    display: none;
+}
+
+.header_burger {
+    color: var(--white-color);
+}
+
+.header_nav_ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+}
+
+.header_li_a {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white-color);
+}
+
+header nav ul li:nth-child(1) a {
+    color: #D5906E;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.logo_text {
+    font-weight: 400;
+    color: #D5906E;
+    display: inline-flex;
+}
+
+.header_right_side_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.sing_in_image {
+    display: none;
+}
+
+.sign_in_text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white-color);
+}
+
+.fa-cart-shopping {
+    width: 24px;
+    height: 24px;
+    color: var(--white-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* banner_section */
+.banner_section {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: url(../images/banner_section_cover.png) center no-repeat;
+    background-image: cover;
+    
+    flex-direction: column;
+    padding-top: 96px;
+    height: 560px;
+
+}
+
+.banner_section_article {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 1;
+    row-gap: 48px;
+}
+
+.banner_section_text {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white-color);
+    text-shadow: 4px 4px 2px #581504;
+}
+
+.banner_section_article_button {
+    padding: 12px 45px;
+    border-radius: 10px;
+    border: 2px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #B53B1B;
+    border: 2px solid #B53B1B;
+    box-shadow: 0px 4px 4px 0px #581504;
+
+}
+
+/* main_section */
+.artworks_section {
+    padding: 120px;
+    background-color: #EA904F;
+    display: flex;
+    align-items: center;
+}
+
+.artworks_section_main_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 72px;
+}
+
+.sort_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    border: 1px solid red;
+}
+
+.main_section_h2 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--white-color);
+}
+
+.main_section_h2_span {}
+
+.sort_button {
+    width: 160px;
+    height: 45px;
+    padding: 8px 21px;
+    border-radius: 5px;
+    border: 2px solid #B53B1B;
+    background-color: var(--white-color);
+    cursor: pointer;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #402101;
+
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.cards_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px 24px;
+    flex-wrap: wrap;
+}
+
+.cards_section_article {
+    width: 31.3%;
+    padding: 16px;
+    border-radius: 8px;
+    border: 0px 0px 2px 0px;
+}
+
+.card_cover {
+    display: flex;
+    align-items: center;
+}

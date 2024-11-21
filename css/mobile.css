@@ -1,0 +1,17 @@
+/* 480px - 320px */
+@media(max-width: 480px) {
+
+    /* header */
+    header {
+        padding-inline: 20px;
+    }
+}
+
+/* less then 320px */
+@media(max-width: 320px) {
+
+    /* header */
+    header {
+        padding-inline: 8px;
+    }
+}
