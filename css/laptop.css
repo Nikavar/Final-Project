@@ -10,7 +10,6 @@
         font-size: 24px;
         line-height: 32px;
         display: block;
-
     }
 
     .logo_text {
@@ -21,11 +20,32 @@
     }
 
     /* banner_section */
-    /* .banner_section{
-        width: 1180px;
-    } */
+    .banner_section {
+        background: url(../images/cover1180.png);
+        background-position: center;
+        background-size: cover;
+        height: 560px;
+    }
 
-    .banner_section_cover{
-        width: min(100%, 1180px);
-    } 
+    .banner_section_article{
+        justify-content: center;
+    }
+
+    /* section2 */
+    .section2{
+        padding: 120px 0 120px 32px;
+    }
+
+    .section2_product_section{
+        overflow-x: scroll;
+    }
+
+    .section2_product_section_article{
+        flex: 1 0 282px;
+    }
+
+    /* footer */
+    footer{
+        padding-inline: 32px;
+    }
 }
