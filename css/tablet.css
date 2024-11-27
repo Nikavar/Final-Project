@@ -65,12 +65,12 @@
         padding: 64px 0 64px 24px;
     }
 
-    .section2_product_section{
+    .section2_product_section {
         width: min(100%, 894px);
     }
 
     /* footer */
-    footer{
+    footer {
         padding-block: 80px;
         display: flex;
         align-items: center;
@@ -79,23 +79,61 @@
         row-gap: 32px;
     }
 
-    .footer_section1{
+    .footer_section1 {
         align-items: center;
         justify-content: center;
         text-align: center;
         row-gap: 32px;
     }
 
-    footer .logo_text{
+    footer .logo_text {
         display: inline-flex;
     }
 
-    .show{
+    .show {
         display: none;
     }
 
-    .footer_section2_ul{
+    .footer_section2_ul {
         flex-direction: row;
         column-gap: 24px;
     }
+
+    /* page: atworks.html */
+    .artworks_section {
+        padding: 64px 24px;
+    } 
+
+    .cards_section_article {
+        flex: 1 1 100%;
+    }
+
+    .main_section_h2 {
+        font-family: var(--font-Inter);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .sort_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 61px;
+        height: 40px;
+    }
+
+    .sort_button_text {
+        display: none;
+    }
+
+    #card5,
+    #card6 {
+        display: none;
+    }
+
+    #page4{
+        display: none;
+    }
+
 }

@@ -48,4 +48,19 @@
     footer{
         padding-inline: 32px;
     }
+
+    /* page: atworks.html */
+    .artworks_section{
+        padding-inline: 32px;
+    }
+
+    .cards_section_article {
+        flex: 1 1 48%;
+    }
+
+    #card7,
+    #card8,
+    #card9{
+        display: none;;
+    }
 }
