@@ -102,7 +102,7 @@
     /* page: atworks.html */
     .artworks_section {
         padding: 64px 24px;
-    } 
+    }
 
     .cards_section_article {
         flex: 1 1 100%;
@@ -132,8 +132,30 @@
         display: none;
     }
 
-    #page4{
+    #page4 {
         display: none;
+    }
+
+    /* Contact Page */
+    .contact_section {
+        padding: 64px 24px;        
+    }
+
+    .contact_section_mainSection{
+        display: flex;
+        flex-direction: column;
+        row-gap: 48px;
+        padding: 16px;
+    }
+
+    .map_section_container {
+        column-gap: 48px;
+    }
+
+    .form_section,
+    .map_section{
+        width: 100%;
+        row-gap: 24px;
     }
 
 }

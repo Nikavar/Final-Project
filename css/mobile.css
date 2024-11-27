@@ -62,6 +62,19 @@
         height: 40px;
     }
 
+    /* page: contact.html */
+    form{
+        display: flex;
+        flex-direction: column;
+        row-gap: 36px;
+    }
+    
+    .inputs_section{
+        display: flex;
+        flex-direction: column;
+        row-gap: 36px;
+    }
+
 }
 
 /* less then 320px */
@@ -107,5 +120,26 @@
     /* page: atworks.html */
     .artworks_section {
         padding: 32px 8px;
+    }
+
+    /* page: contact.html */
+    .contact_section {
+        padding: 48px 8px;        
+    }
+
+    .contact_section_mainSection{
+        padding: 16px 8px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+    }
+    
+    .inputs_section{
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
     }
 }

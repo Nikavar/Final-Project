@@ -16,13 +16,13 @@ xMark.addEventListener("click",()=>{
 })
 
 
-// set a correct color: #D5906E for active page tab 
+// set a color: #D5906E for active page tab 
 const navLinks = document.querySelectorAll('.header_li_a');
 
-const currentPage = window.location.pathname;
+const currentPage = window.location.href;
 
 navLinks.forEach(link => {
-    if (link.pathname === currentPage) {
+    if (link.href === currentPage) {
         link.classList.add('active'); 
     } else {
         link.classList.remove('active'); 

@@ -63,4 +63,9 @@
     #card9{
         display: none;;
     }
+
+    /* Contact Page */
+    .contact_section{
+        padding-inline: 32px;
+    }
 }

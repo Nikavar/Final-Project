@@ -1,60 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/reset.css">
-        <script src="https://kit.fontawesome.com/4246e4d6fd.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/root.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/laptop.css">
-        <link rel="stylesheet" href="css/tablet.css">
-        <link rel="stylesheet" href="css/mobile.css">
-        <link rel="stylesheet" href="css/animation.css">
-        <link rel="icon" href="images/logo.svg">
-        <title>Final Project</title>
-    </head>
-    <body>
-        <!-- container -->
-        <div class="container">
-    
-            <!-- header -->
-            <header>
-                <a class="header_burger_button">
-                    <i class="fas fa-bars header_burger"></i>
-                </a>
-    
-                <a class="header_x_mark">
-                    <i class="fa-solid fa-xmark"></i>
-                </a>
-                <nav class="header_nav">
-                    <ul class="header_nav_ul">
-                        <li>
-                            <a href="index.html" class="header_li_a">Home</a>
-                        </li>
-                        <li>
-                            <a href="atworks.html" class="header_li_a">Artworks</a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="header_li_a">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <a href="index.html" class="logo">
-                    Earthly<span class="logo_text">Artisry</span>
-                </a>
-    
-                <section class="header_right_side_section">
-                    <a href="" class="sing_in_image">
-                        <img src="images/sign-in.svg" alt="sign in">
-                    </a>
-                    <a href="" class="sign_in_text">
-                        Sign In
-                    </a>
-                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                </section>
-            </header>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/4246e4d6fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="icon" href="images/logo.svg">
+    <title>Final Project</title>
+</head>
+
+<body>
+    <!-- container -->
+    <div class="container">
+
+        <!-- header -->
+        <header>
+            <a class="header_burger_button">
+                <i class="fas fa-bars header_burger"></i>
+            </a>
+
+            <a class="header_x_mark">
+                <i class="fa-solid fa-xmark"></i>
+            </a>
+            <nav class="header_nav">
+                <ul class="header_nav_ul">
+                    <li>
+                        <a href="index.html" class="header_li_a">Home</a>
+                    </li>
+                    <li>
+                        <a href="atworks.html" class="header_li_a">Artworks</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="header_li_a">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="index.html" class="logo">
+                Earthly<span class="logo_text">Artisry</span>
+            </a>
+
+            <section class="header_right_side_section">
+                <a href="" class="sing_in_image">
+                    <img src="images/sign-in.svg" alt="sign in">
+                </a>
+                <a href="" class="sign_in_text">
+                    Sign In
+                </a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </section>
+        </header>
+
+        <section class="contact_section">
+            <section class="contact_section_mainSection">
+                <!-- form section -->
+                <section class="form_section">
+                    <h2 class="form_title">Get  in Touch</h2>
+                    <form name="contactform">
+                        <section class="inputs_section">
+                            <input type="text" name="FullName" placeholder="Full Name">
+                            <input type="email" name="Email" placeholder="Email">
+                        </section>
+                        <section class="textarea_section">
+                            <textarea name="Message" id="message" placeholder="Message"></textarea>
+                        </section>
+                        <button type="submit" class="submit_button">SUBMIT</button>
+                    </form>
+                </section>
+                <!-- map section -->
+                <section class="map_section">
+                    <section class="map_section_container">
+                        <a href="tel: +995 32 222 222">
+                            <button class="contact_button">
+                                <i class="fa-solid fa-phone"></i>
+                            </button>
+                        </a>
+                        <a href="mailto:Fordmail@gmail.com">
+                            <button class="contact_button">
+                                <i class="fa-regular fa-envelope"></i>
+                            </button>
+                        </a>
+                        <a href="https://maps.app.goo.gl/VzAx8jchN4PKqpTm7" target="_blank">
+                            <button class="contact_button">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </button>
+                        </a>
+                    </section>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2225.0906205446595!2d44.79656759346689!3d41.699336796088616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cdd6f5381cb%3A0x86bcad58f3700906!2s24%20Shota%20Rustaveli%20Ave%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1731659540074!5m2!1sen!2sge"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </section>
+        </section>
 
         <!-- footer -->
         <footer>
@@ -124,4 +168,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
